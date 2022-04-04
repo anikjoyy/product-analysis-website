@@ -2,10 +2,12 @@ import React from 'react';
 import HomePicture from '../../Assests/Image/picture-1.png';
 import useReviews from '../../hooks/useReviews';
 import ReviewDetails from '../ReviewDetails/ReviewDetails';
+import { useNavigate } from 'react-router-dom';
 
 import './Home.css';
 
 const Home = () => {
+  const navigate = useNavigate();
   const [reviews, setReviews] = useReviews();
   return (
     <div>
@@ -18,9 +20,7 @@ const Home = () => {
             <span className='blue-color'>Welcome to Lappy</span> <br />
             Pick your best Laptop
           </h1>
-          <p>
-            We provide the best laptop for you. Are you ready to explore us?
-          </p>
+          <p>We provide the best laptop for you. Are you ready to explore?</p>
           <button className='home-btn'>Live Demo</button>
         </div>
       </div>
@@ -32,7 +32,9 @@ const Home = () => {
           ))}
         </div>
         <div className='btn-container'>
-          <button className='review-btn'>See All Reviews</button>
+          <button onClick={() => navigate('/reviews')} className='review-btn'>
+            See All Reviews
+          </button>
         </div>
       </div>
     </div>
