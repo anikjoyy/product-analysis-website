@@ -21,7 +21,9 @@ const Home = () => {
             Pick your best Laptop
           </h1>
           <p>We provide the best laptop for you. Are you ready to explore?</p>
-          <button className='home-btn'>Live Demo</button>
+          <button onClick={() => navigate('/notFound')} className='home-btn'>
+            Live Demo
+          </button>
         </div>
       </div>
       <div className='customer-review-container'>

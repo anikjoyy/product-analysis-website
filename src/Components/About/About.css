@@ -1,0 +1,12 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.about-container h1 {
+  font-size: 96px;
+  font-weight: bold;
+}
+.orange-color {
+  color: orange;
+}
