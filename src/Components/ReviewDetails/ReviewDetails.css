@@ -1,0 +1,19 @@
+.review-details {
+  border: 2px solid lightblue;
+  text-align: center;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+}
+.review-details img {
+  border-radius: 100%;
+  width: 270px;
+  height: 270px;
+}
+.review-details h2 {
+  padding-top: 20px;
+  font-weight: bold;
+}
+.review-details p {
+  padding-top: 20px;
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Arnoldo Bostic",
+    "img": "https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584_960_720.png",
+    "userReview": "Its a amazing laptop. Its body color texture and the quality is just amazing.",
+    "ratings": 4.8
+  },
+  {
+    "id": 2,
+    "name": "King Mcclellan",
+    "img": "https://cdn.pixabay.com/photo/2018/08/28/12/41/avatar-3637425_960_720.png",
+    "userReview": "I like the functionalities of this laptop. This laptop is too fast just the way I like.",
+    "ratings": 4.5
+  },
+  {
+    "id": 3,
+    "name": "Arlen Blackwell",
+    "img": "https://cdn.pixabay.com/photo/2016/08/20/05/38/avatar-1606916_960_720.png",
+    "userReview": "This laptop is just perfect for my work but sometime its lags.",
+    "ratings": 4.0
+  },
+  {
+    "id": 4,
+    "name": "Diana Allen",
+    "img": "https://cdn.pixabay.com/photo/2016/08/20/05/36/avatar-1606914_960_720.png",
+    "userReview": "Amazing quality, design. Its kind of expensive but perfect for me.",
+    "ratings": 4.5
+  },
+  {
+    "id": 5,
+    "name": "Jana Moore",
+    "img": "https://cdn.pixabay.com/photo/2021/05/10/08/00/woman-6242836_960_720.png",
+    "userReview": "Perfect laptop for my work. I am so happy to purchase this laptop, this device makes my work easier",
+    "ratings": 4.7
+  },
+  {
+    "id": 6,
+    "name": "Hung Hinds",
+    "img": "https://cdn.pixabay.com/photo/2022/03/06/07/58/man-7051040_960_720.png",
+    "userReview": "This laptop makes my working life easier. I can do all my work in this laptop in an efficient way.",
+    "ratings": 4.5
+  }
+]

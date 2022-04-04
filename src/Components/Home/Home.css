@@ -1,0 +1,69 @@
+.home-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+}
+
+.image-container img {
+  width: 800px;
+  height: 500px;
+}
+
+.details-container h1 {
+  color: lightblue;
+  font-size: 70px;
+  margin-top: 90px;
+}
+.blue-color {
+  color: blue;
+}
+.details-container p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.home-btn {
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: lightblue;
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+}
+.home-btn:hover {
+  background-color: orange;
+  color: black;
+}
+.customer-review-container {
+  margin-top: 40px;
+}
+
+.review-heading {
+  color: blue;
+  font-size: 44px;
+  font-weight: bold;
+  text-align: center;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.review-btn {
+  border: none;
+  border-radius: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: blue;
+  background-color: lightblue;
+  font-size: 15px;
+  font-weight: bold;
+}
+.review-btn:hover {
+  background-color: orange;
+  color: black;
+}
