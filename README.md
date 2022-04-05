@@ -2,7 +2,7 @@
 
 [Live site link](https://lappy-review-website.netlify.app/).
 
-[](https://lappy-review-website.netlify.app/).
+[https://lappy-review-website.netlify.app/](https://lappy-review-website.netlify.app/).
 
 ## What have done in this project
 
